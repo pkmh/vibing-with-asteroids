@@ -1,5 +1,5 @@
-# v2
-This version runs uses a simple graphics library, but has no sound. It took a bit of prompting Claude for additional help on compilation errors/warning, but they fixed it with surprising ease and speed!!
+# v3
+This version runs uses a simple graphics library, has sound, and flying saucer enemies!!
 
 ## set-up
 First, do everything in `/v1` & `/v2`
