@@ -1,5 +1,5 @@
 # v2
--- TODO
+This version runs uses a simple graphics library, but has no sound. It took a bit of prompting Claude for additional help on compilation errors/warning, but they fixed it with surprising ease and speed!!
 
 ## set-up
 First install SDL2:
@@ -39,3 +39,6 @@ Vector graphics — the ship is a proper triangle that rotates smoothly through 
 >
 > Polish — animated thrust flame that flickers, blinking invulnerability after respawn, a subtle starfield background, smooth 60 FPS with vsync, and proper held-key input so rotation and thrust feel continuous instead of stuttery.
 The window is 1024×768. 
+
+FROM PKMH
+> Claude definitely had a bit of problems here and some compilation errors/warnings occurred, but they were fixed quickly & with ease. I'm really impressed!!
