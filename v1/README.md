@@ -1,9 +1,5 @@
-# vibing-with-asteroids
-[May 9th 2026] I'm a reluctant vibe-coder, and much of my work is too sensitive to use AI for. But, I want to make sure I keep on top of the tech landscape as these tools evolve so I'm experimenting with vibe-coding in some of my free time. Most of this README file & the C++ code is all thanks to Claude!!
-
-The goal This time? To play Asteroids in your CLI!!
-
-All I prompted Claude with was "Hey Claude! Can you write another C++ program for me? I want to play Asteroids in my CLI" This took Claude significantly longer than Tetris or Snake, but it was still very fast. I think thats understandable too, considering every time I asked Calude to make a game like this, its getting more complex and/or less popular programming tasks 
+# v1
+This version runs in your CLI and the game state is all ASCII characters. All I prompted Claude with was "Hey Claude! Can you write another C++ program for me? I want to play Asteroids in my CLI".
 
 ## set-up
 You'll need ncurses installed (`sudo apt install libncurses-dev` on Debian/Ubuntu, `brew install ncurses` on macOS — usually preinstalled).
