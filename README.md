@@ -24,8 +24,9 @@ g++ -std=c++17 -O2 asteroids.cpp -lncurses -o asteroids
 - Q to quit
 
 ## notes
-The physics uses floating-point world coordinates with momentum and friction — your ship drifts after thrusting, just like the original. Everything wraps around the screen edges (a bullet exiting the right side reappears on the left). Since terminal cells are roughly twice as tall as wide, I scale horizontal velocity by 2x so movement looks visually even rather than weirdly stretched.
+FROM CLAUDE
+> The physics uses floating-point world coordinates with momentum and friction — your ship drifts after thrusting, just like the original. Everything wraps around the screen edges (a bullet exiting the right side reappears on the left). Since terminal cells are roughly twice as tall as wide, I scale horizontal velocity by 2x so movement looks visually even rather than weirdly stretched.
 
-Asteroids come in three sizes: large @ splits into two medium O, each medium splits into two small o, and small ones disappear when shot. Points scale inversely (20/50/100) so the small fast ones are worth the risk. After clearing all asteroids, the next level spawns more of them.
+> Asteroids come in three sizes: large @ splits into two medium O, each medium splits into two small o, and small ones disappear when shot. Points scale inversely (20/50/100) so the small fast ones are worth the risk. After clearing all asteroids, the next level spawns more of them.
 
-Lives and respawning: you start with 3 lives and get ~3 seconds of blinking invulnerability after each respawn. The ship only respawns when the center of the screen is clear of asteroids, so you don't get destroyed instantly. Hyperspace teleports you to a random spot but has a 10% chance of killing you — use sparingly.
+> Lives and respawning: you start with 3 lives and get ~3 seconds of blinking invulnerability after each respawn. The ship only respawns when the center of the screen is clear of asteroids, so you don't get destroyed instantly. Hyperspace teleports you to a random spot but has a 10% chance of killing you — use sparingly.
